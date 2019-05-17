@@ -32,13 +32,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The DOM represents the node structure of an HTML document. DOM contains and structures all the elements which make up the final document
+
 2. What is an event?
 
+An Event is a action by the user, such as click mouseover, focus, etc. The browser recognizes these events and acts acouring to its instruction for the specific events
+.
 3. What is an event listener?
+
+We can assign EventListeners to DOM elements to instruct the browser which action to take in case the specified event takes place. It detects these events and kicks of the given instructions for this event.
 
 4. Why would we convert a NodeList into an Array?
 
+Because we have more flexibility working with an array. We can use .map() on an array for example, which we could not on a nodeList
+
 5. What is a component?
+
+We use components to "outsource" functionality whch is used by more than one element. With this we save work and complexity. Whenever we need this functionality we can use this component when buidling the site.
 
 ### Git Set up
 
